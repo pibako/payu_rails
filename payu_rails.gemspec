@@ -7,9 +7,9 @@ require "payu_rails/version"
 Gem::Specification.new do |s|
   s.name        = "payu_rails"
   s.version     = PayuRails::VERSION
-  s.authors     = ["Piotr Kowalski "]
+  s.authors     = ["Piotr Kowalski"]
   s.email       = ["piotrek.kowalski@gmail.com"]
-  s.homepage    = "http://kowalski-consulting.ch"
+  s.homepage    = "https://github.com/pibako/payu_rails"
   s.summary     = "Rails wrapper for payu library."
   s.description = "Rails wrapper for payu library (old name platnosci.pl)."
 

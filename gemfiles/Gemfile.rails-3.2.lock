@@ -1,5 +1,5 @@
 PATH
-  remote: /Users/pi/code/ruby/payu_rails
+  remote: ..
   specs:
     payu_rails (0.0.1)
       payu (~> 0.7.2)
