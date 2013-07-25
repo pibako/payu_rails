@@ -8,5 +8,7 @@ class InstallGeneratorTest < Rails::Generators::TestCase
 
   test "Assert all files are properly created" do
     run_generator
+    assert_file "config/initializers/payu.rb"
+    assert_file "config/payu.yml"
   end
 end
