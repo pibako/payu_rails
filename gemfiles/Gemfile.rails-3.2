@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gemspec
+gemspec :path => ".."
 
-gem "rails", "~> 4.0.0"
+gem "rails", "~> 3.2.6"
 
 platforms :jruby do
   gem "activerecord-jdbc-adapter"
@@ -14,5 +14,4 @@ platforms :ruby do
   gem "sqlite3"
 end
 
-# To use debugger
-# gem 'debugger', :group => :development
+# gem 'debugger'
