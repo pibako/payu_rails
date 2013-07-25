@@ -1,4 +1,4 @@
-bank:
+main:
   pos_id: 12345
   pos_auth_key: XXX
   key1: XXX
