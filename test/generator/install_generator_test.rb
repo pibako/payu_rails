@@ -1,5 +1,5 @@
 require "test_helper"
-require "generators/install_generator"
+require "generators/payu_rails/install_generator"
 
 class InstallGeneratorTest < Rails::Generators::TestCase
   tests PayuRails::Generators::InstallGenerator
