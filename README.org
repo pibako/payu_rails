@@ -1,6 +1,6 @@
 * PayuRails
 
-https://travis-ci.org/pibako/payu_rails.png
+[[https://travis-ci.org/pibako/payu_rails.png]]
 
 ** Description
 Very simple PayU generator (old platnosci.pl) for rails apps.
