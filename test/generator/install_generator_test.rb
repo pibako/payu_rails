@@ -19,9 +19,9 @@ class InstallGeneratorTest < Rails::Generators::TestCase
 
   test "routes.rb contains specific routes" do
     run_generator
-    match1 = /match "\/payu\/ok" => "payu#ok"/
-    match2 = /match '\/payu\/error' => 'payu#error'/
-    match3 = /match '\/payu\/report' => 'payu#report'/
+    match1 = /get "\/payu\/ok" => "payu#ok"/
+    match2 = /get '\/payu\/error' => 'payu#error'/
+    match3 = /post '\/payu\/report' => 'payu#report'/
     [match1, match2, match3].each do |match|
       assert_file "config/routes.rb", match
     end

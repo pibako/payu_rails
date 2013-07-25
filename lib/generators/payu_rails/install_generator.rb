@@ -20,9 +20,9 @@ module PayuRails
 
       desc "Setup payu routes file."
       def add_routes
-        route %Q{match "/payu/ok" => "payu#ok"}
-        route %Q{match '/payu/error' => 'payu#error'}
-        route %Q{match '/payu/report' => 'payu#report'}
+        route %Q{get "/payu/ok" => "payu#ok"}
+        route %Q{get '/payu/error' => 'payu#error'}
+        route %Q{post '/payu/report' => 'payu#report'}
       end
     end
   end
