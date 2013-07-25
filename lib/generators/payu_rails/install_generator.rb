@@ -13,6 +13,11 @@ module PayuRails
         copy_file "payu.yml", "config/payu.yml"
       end
 
+      desc "Install payu controlerr."
+      def copy_controller_file
+        copy_file "payu_controller.rb", "app/controllers/payu_controller.rb"
+      end
+
       desc "Setup payu routes file."
       def add_routes
         route %Q{match "/payu/ok" => "payu#ok"}

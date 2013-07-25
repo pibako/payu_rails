@@ -14,6 +14,7 @@ class InstallGeneratorTest < Rails::Generators::TestCase
     run_generator
     assert_file "config/initializers/payu.rb"
     assert_file "config/payu.yml"
+    assert_file "app/controllers/payu_controller.rb", /class PayuController/
   end
 
   test "routes.rb contains specific routes" do
