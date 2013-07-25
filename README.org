@@ -1,0 +1,20 @@
+#+TITLE: PayuRails
+
+Very simple PayU generator (old platnosci.pl) for rails apps.
+
+It uses payu gem: https://github.com/ronin/payu
+
+* Usage
+  Add ~payu_rails~ gem to your ~Gemfile~, there is no need to add
+  ~payu~ gem separately:
+  : gem "payu_rails", git: "https://github.com/pibako/payu_rails"
+
+  Execute ~bundle install~ and then run generator:
+  : $ bundle install
+  : $ rails g payu_rails:install
+
+  Go to https://github.com/ronin/payu and read documentation... good luck!
+
+
+* Licence
+  This project uses MIT-LICENSE.
