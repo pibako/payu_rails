@@ -1,5 +1,6 @@
 * PayuRails
 
+  [[https://codeclimate.com/github/pibako/payu_rails.png]] | [[https://codeclimate.com/github/pibako/payu_rails][codeclimate]]
   [[https://travis-ci.org/pibako/payu_rails.png]] | [[https://travis-ci.org/pibako/payu_rails][master]]
 
 ** Description
